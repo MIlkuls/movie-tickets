@@ -13,9 +13,11 @@ export const Header = () => {
                     <Link href={'/movies'}>Movies</Link>
                 </li>
                 <li className={styles.navitem}>
-                    <Link href={'/showtimes'}>Showtimes </Link>
+                    <Link href={'/showtimes'}>Showtimes</Link>
                 </li>
             </ul>
         </nav>
     )
 }
+
+
